@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset=utf-8>
+            <meta name="viewport" content="width=device-width, initial-scale=1"> 
+            <title>Game Design Final Project Index</title>
+            <link href="css/finalProject.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <article>
+        <h1><img class="popLogo" alt="Pop Culture Games Logo" src="media/popCultureLogo.png"/></h1>
+    <section>
+            <div>
+            <button onclick="openDescription(event, 'Pixel')"><img class="pixelBtton" alt="Pixel Land Logo" src="media/pixelandSign.png"></button>
+            <div id="Pixel" class="gameInfo">
+                    <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+                    <h3><a href="#">Play Pixel Land</a></h3>
+                    <p class="info">In Pixel Land, help Mr. Emoji fight to avoid social communications greatest foes. Reach the final text message and win.</p>
+            </div>
+            <br>
+            <button onclick="openDescription(event, 'Puzzle')"><img class="puzzBtton" alt="Puzzle Logo" src="media/puzzlesLogo.png"></button>
+            <div id="Puzzle" class="gameInfo">
+                    <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+                    <h3><a href="#">Play Pop Culture Puzzles</h3></a></h3>
+                    <p class="info">Choose from a selection of pop culture puzzles and drag and drop the puzzle pieces to solve the puzzle.</p>
+            </div>
+            <br>
+            <button onclick="openDescription(event, 'Trivia')"><img class="trivBtton" alt="Trivia Logo" src="media/triviaLogo.png"></button>
+            <div id="Trivia" class="gameInfo">
+                    <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+                    <h3><a href="#">Play Pop Culture Trivia</a></h3>
+                    <p class="info">Brush up on your pop culture knowledge and answer fun trivia questions about you favorite tv-shows, influencers, and movies.</p>  
+            </div>
+        </div> 
+        <!--The above code creates tabs for each games info and href links to the game pages-->
+    </section>
+    </article>
+    <div>
+    <footer> 
+        <p><a style="color: #d00000;font-family: 'Oswald', sans-serif;font-size: 1em; font-style: italic;" href="readMe.txt">Read Me File</a> &copy;Koree Bemiss 2018-2019</p>
+    </footer>
+</div>
+    <script>
+        function openDescription(evt, gameName) {
+        document.getElementById(gameName).style.display = "block";
+        }
+    </script>
+</body>
+<!--This game interface is intended to be used by a mostly millennials and individuals 
+    with pop culture knowledge. It's design is loosely inspired by Roy Lichtenstein’s pop art works, 
+    in terms of color and dot usage. The red, blue, and yellow, were all used in connection to the artist. 
+    The primary color theory was also used for it simplicity and child like fun; however, the colors hues and dot 
+    graphics were altered to be more modern and abstract in appearance. The layout is designed to 
+    have elements remain center and clean on mobile phones and pads, but float left on larger screens.-->
+</html>

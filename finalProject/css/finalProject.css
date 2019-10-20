@@ -1,0 +1,157 @@
+body{
+    background-image: url('../media/popCulturePage.png');
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    letter-spacing: .1em;
+    background-repeat:repeat-y, repeat-x;
+}
+article{
+    display: block;
+    background-color:rgba(255,255,255,.2); 
+    padding: 2%; 
+    border-radius: 25px; 
+    max-height: 1400px; 
+    min-height: auto; 
+    margin-left: 0;
+    margin-right:0;
+}
+.popLogo{
+    display: block;
+    width:500px;
+    opacity: 1;
+    height:auto;
+    margin-bottom: -40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.puzzBtton{
+    height: 70px;
+    align-content: center;
+}
+.trivBtton{
+    height: 70px;
+    align-content: center;
+}
+.pixelBtton{
+    width: 230px;
+    align-content: center;
+    padding-top: 7px;
+}
+h2{
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 20pt;
+    color: white;
+}
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #d00000;
+    font-weight:600;
+    margin-top:10px;
+    font-style: normal;
+  }
+.gameInfo{
+    display: none;
+    color: white;
+    background-color: rgba(100, 100, 100, 0.3);
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding:20px;
+    font-weight: 200;
+    font-style: italic;
+}
+a{
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 16pt;
+    margin-left: 5px;
+    margin-top:5px;
+    color: rgb(255, 255, 0);
+    text-decoration: underline;
+}
+li{
+    color:white;
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+}
+button{
+    display: block;
+    background-color:rgb(255, 255, 0);
+    border-radius: 20px;
+    min-width: 410px;
+    height: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    background-color: black;
+    padding: 20px;
+    opacity: 9;
+    min-width: 410px;
+    max-width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+footer{
+    display: block;
+    color: black;
+    background-color: rgb(255, 255, 0);
+    text-align: center;
+    margin-left: 0;
+    margin-right:0;
+    padding: 2%;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 1.125em;
+    margin-top:10px;
+}
+h1{
+    margin-left:-30px;
+}
+@media only screen and (max-width: 500px) {
+  body {
+    max-width: 450px;
+  }
+  article{
+    width:450px;
+  }
+  footer{
+  width:450px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+  body {
+    max-width: 767px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1290px) {
+  body {
+    max-width: 1290px
+  }
+}
+@media only screen and (min-width: 1290px) {
+  section {
+    display:flex;
+    margin-top:50px;
+    float: left;
+    max-width: 600px;
+    margin-left:80px;
+}
+  .popLogo{
+    display:flex;
+    float: left;
+}
+  article{
+    height: 950px;
+}
+}
