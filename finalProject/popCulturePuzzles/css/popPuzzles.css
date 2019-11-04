@@ -1,0 +1,162 @@
+body{
+  background-color: rgb(88, 135, 221);
+}
+section{
+ display:flex;
+ float: left;
+ flex-wrap:wrap;
+ width:460px;
+ background-color: white;
+ border-radius: 20px;
+ padding: 10px;
+ margin-bottom: 20px;
+}
+article{
+ float: right;
+}
+#Puzzle5, #Puzzle4, #Puzzle3, #Puzzle2, #Puzzle1{
+ display: none;
+}
+button{
+   height:90px;
+   width:90px;
+   box-shadow: 2px 2px 1px black;
+   border-radius: 10px;
+   margin-bottom:20px;
+}
+h2{
+ font-family: 'Barlow', sans-serif, Arial, Helvetica, sans-serif;
+ letter-spacing: .1px;
+ text-align: center;
+ margin-top: -30px;
+ color:white;
+ font-size:2em;
+ padding:10px;
+ font-weight: 200;
+}
+h3{
+ font-family: 'Barlow', sans-serif, Arial, Helvetica, sans-serif;
+ letter-spacing: .1px;
+ text-align: center;
+ margin-top: -40px;
+ color:white;
+ font-size:1.125em;
+ padding:10px;
+ font-weight: 200;
+}
+#buttonOrg{
+ width:60%;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+h4{
+ font-family: 'Barlow', sans-serif, Arial, Helvetica, sans-serif;
+ letter-spacing: .1px;
+ text-align: center;
+ margin-top: -30px;
+ margin-bottom:10px;
+ color:white;
+ font-size:1.5em;
+ padding:10px;
+ font-weight: 600;
+}
+#collect div {
+ height: 111px;
+ width: 111px;
+ border: 1px dotted white;
+ display: inline-block;
+ margin: 0;
+}
+#collect {
+ width:347px;
+ height:347px;
+ background:rgb(0, 0, 14);
+ border:5px solid rgb(0, 0, 14);
+ border-radius: 10px;
+ padding: 7px;
+ margin-left: auto;
+ margin-right: auto;
+}
+p{
+ flex:1;
+ width:200px;
+ opacity: 1.0;
+}
+footer{
+ font-family: 'Barlow', sans-serif, Arial, Helvetica, sans-serif;
+ text-align: center;
+ font-size: 1em;
+ margin-top: 10px;
+ width: 100%;
+ display: flex;
+ padding: 5px;
+ background-color: black;
+ border-radius: 20px;
+ color: white;
+}
+.popLog{
+ width:470px;
+ height:auto;
+ display:block;
+ margin-left: auto;
+ margin-right: auto;
+}
+@media only screen and (max-width: 1014px) {
+ body {
+   max-width: 470px;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ #buttonOrg{
+   width:100%;
+ }
+ footer{
+   width:95%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ article{
+   float: none;
+ }
+ section{
+   float: none;
+ }
+}
+@media only screen and (min-width: 1015px) and (max-width: 1200px) {
+ body {
+   max-width: 90%;
+   margin: 20px auto 20px auto;
+ }
+ section{
+   margin-left:20px;
+ }
+ article{
+   margin-right:20px;
+ }
+ footer{
+   width:100%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+}
+@media only screen and (min-width: 1200px) {
+ body {
+   max-width: 90%;
+   margin: 20px auto 20px auto;
+ }
+ section{
+   margin-left:100px;
+ }
+ article{
+   margin-right:100px;
+ }
+ footer{
+   width:100%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+}
