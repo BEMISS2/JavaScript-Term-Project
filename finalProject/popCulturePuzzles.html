@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="css/popPuzzles.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="js/popPuzzles.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Barlow:200,600&display=swap" rel="stylesheet">
+<title>Pop Culture Puzzles</title>
+</head>
+<body>
+  <h1><img class="popLog" alt="Pop Culture Puzzle Logo" src="media/puzzlesLogo.png"/></h1>
+  <h2>Solve the Drag and Drop Puzzles!</h2>
+  <h3>Place your puzzle pieces in the grid area below.</h3>
+  <h4>Select your puzzle by clicking an image:</h4>
+  <!-- Buttons include id'd which are called in function for toggle and hide.-->
+  <div id="buttonOrg">
+  <button type="button" id="puzzleOne" style="background: url(media/AndyOrange_whole.jpg); background-size: contain;"></button> 
+  <button type="button" id="puzzleTwo" style="background: url(media/popArt_whole.jpg); background-size: contain;"></button>
+  <button type="button" id="puzzleThree" style="background: url(media/grumpyDisney_whole.jpg); background-size: contain;"></button>
+  <button type="button" id="puzzleFour" style="background: url(media/popularIcons_whole.jpg); background-size: contain;"></button>
+  <button type="button" id="puzzleFive" style="background: url(media/weCanDo_whole.jpg); background-size: contain;"></button>
+  </div>
+  <!-- Sections include id'd which allow the JQuery to toggle on click of the selection.-->
+   <!-- Images are are displayed in sections with id's to only show when called by function.-->
+  <section id="Puzzle1">
+      <p id="MoveMe1"><img alt="Andy Warhol Art CB" src="media/AndyOrange_CB.jpg" /></p>
+      <p id="MoveMe2"><img alt="Andy Warhol Art BL" src="media/AndyOrange_BL.jpg" /></p>
+      <p id="MoveMe3"><img alt="Andy Warhol Art CL" src="media/AndyOrange_CL.jpg" /></p>
+      <p id="MoveMe4"><img alt="Andy Warhol Art BR" src="media/AndyOrange_BR.jpg" /></p>
+      <p id="MoveMe5"><img alt="Andy Warhol Art C" src="media/AndyOrange_C.jpg" /></p>
+      <p id="MoveMe6"><img alt="Andy Warhol Art TR" src="media/AndyOrange_TR.jpg" /></p> 
+      <p id="MoveMe7"><img alt="Andy Warhol Art TL" src="media/AndyOrange_TL.jpg" /></p> 
+      <p id="MoveMe8"><img alt="Andy Warhol Art CR" src="media/AndyOrange_CR.jpg" /></p> 
+      <p id="MoveMe9"><img alt="Andy Warhol Art CT" src="media/AndyOrange_CT.jpg" /></p> 
+  </section>
+  <section id="Puzzle2">
+      <p id="MoveMe10"><img alt="Pop Art C" src="media/popArt_C.jpg" /></p>
+      <p id="MoveMe11"><img alt="Pop Art TR" src="media/popArt_TR.jpg" /></p>
+      <p id="MoveMe12"><img alt="Pop Art BL" src="media/popArt_BL.jpg" /></p>
+      <p id="MoveMe13"><img alt="Pop Art CB" src="media/popArt_CB.jpg" /></p>
+      <p id="MoveMe14"><img alt="Pop Art CR" src="media/popArt_CR.jpg" /></p>
+      <p id="MoveMe15"><img alt="Pop Art TL" src="media/popArt_TL.jpg" /></p> 
+      <p id="MoveMe16"><img alt="Pop Art CL" src="media/popArt_CL.jpg" /></p> 
+      <p id="MoveMe17"><img alt="Pop Art CT" src="media/popArt_CT.jpg" /></p> 
+      <p id="MoveMe18"><img alt="Pop Art BR" src="media/popArt_BR.jpg" /></p> 
+  </section>
+  <section id="Puzzle3">
+    <p id="MoveMe19"><img alt="Grumpy Disney BL" src="media/grumpyDisney_BL.jpg" /></p>
+    <p id="MoveMe20"><img alt="Grumpy Disney TR" src="media/grumpyDisney_TR.jpg" /></p>
+    <p id="MoveMe21"><img alt="Grumpy Disney C" src="media/grumpyDisney_C.jpg" /></p>
+    <p id="MoveMe22"><img alt="Grumpy Disney CL" src="media/grumpyDisney_CL.jpg" /></p>
+    <p id="MoveMe23"><img alt="Grumpy Disney CR" src="media/grumpyDisney_CR.jpg" /></p>
+    <p id="MoveMe24"><img alt="Grumpy Disney TL" src="media/grumpyDisney_TL.jpg" /></p> 
+    <p id="MoveMe25"><img alt="Grumpy Disney CB" src="media/grumpyDisney_CB.jpg" /></p> 
+    <p id="MoveMe26"><img alt="Grumpy Disney CT" src="media/grumpyDisney_CT.jpg" /></p> 
+    <p id="MoveMe27"><img alt="Grumpy Disney BR" src="media/grumpyDisney_BR.jpg" /></p> 
+</section>
+<section id="Puzzle4">
+    <p id="MoveMe28"><img alt="Popular Icons BL" src="media/popularIcons_BL.jpg" /></p>
+    <p id="MoveMe29"><img alt="Popular Icons TR" src="media/popularIcons_TR.jpg" /></p>
+    <p id="MoveMe30"><img alt="Popular Icons C" src="media/popularIcons_C.jpg" /></p>
+    <p id="MoveMe31"><img alt="Popular Icons CL" src="media/popularIcons_CL.jpg" /></p>
+    <p id="MoveMe32"><img alt="Popular Icons CR" src="media/popularIcons_CR.jpg" /></p>
+    <p id="MoveMe33"><img alt="Popular Icons TL" src="media/popularIcons_TL.jpg" /></p> 
+    <p id="MoveMe34"><img alt="Popular Icons CB" src="media/popularIcons_CB.jpg" /></p> 
+    <p id="MoveMe35"><img alt="Popular Icons CT" src="media/popularIcons_CT.jpg" /></p> 
+    <p id="MoveMe36"><img alt="Popular Icons BR" src="media/popularIcons_BR.jpg" /></p>
+</section>
+<section id="Puzzle5">
+    <p id="MoveMe37"><img alt="We Can Do It CB" src="media/weCanDo_CB.jpg" /></p>
+    <p id="MoveMe38"><img alt="We Can Do It BL" src="media/weCanDo_BL.jpg" /></p>
+    <p id="MoveMe39"><img alt="We Can Do It LS" src="media/weCanDo_CL.jpg" /></p>
+    <p id="MoveMe40"><img alt="We Can Do It BR" src="media/weCanDo_BR.jpg" /></p>
+    <p id="MoveMe41"><img alt="We Can Do It C" src="media/weCanDo_C.jpg" /></p>
+    <p id="MoveMe42"><img alt="We Can Do It TR" src="media/weCanDo_TR.jpg" /></p> 
+    <p id="MoveMe43"><img alt="We Can Do It TL" src="media/weCanDo_TL.jpg" /></p> 
+    <p id="MoveMe44"><img alt="We Can Do It RS" src="media/weCanDo_CR.jpg" /></p> 
+    <p id="MoveMe45"><img alt="We Can Do It CT" src="media/weCanDo_CT.jpg" /></p> 
+</section>
+<article>
+ <!--Pieces are to be dragged to div "collect" below in order to organize and solve puzzle-->
+   <div style="margin-bottom:20px;" id="collect">
+         <div id="div1"></div>
+         <div id="div2"></div>
+         <div id="div3"></div>
+         <div id="div4"></div>
+         <div id="div5"></div>
+         <div id="div6"></div>
+         <div id="div7"></div>
+         <div id="div8"></div>
+         <div id="div9"></div>
+   </div>
+  </article>
+<footer> 
+    <p><a style="font-style: italic; color: rgb(88, 135, 221);" href="../popCulturePuzzles/puzzReadMe.txt">Read Me File</a> &copy;Koree Bemiss 2019</p>
+</footer>
+</body>
+</html>
