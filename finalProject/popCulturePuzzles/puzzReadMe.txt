@@ -6,6 +6,7 @@ Current problems or issues: As of right now, there are no current problems or is
 
 Plans to resolve issues: As of right now, there are no issues to resolve.
 
+
 Images:
 
 The choices of puzzles are not my images, but images sourced from public domain, and web sites. If for any reason the user finds that any of my images call for copyright infringement, please contact me by the email below. I'd be happy to pull the image down. I was very carful on my selection, but things can happen.
@@ -28,8 +29,6 @@ No plans for future releases. I maybe will add more difficult puzzles in the fut
 Copyright:
 
 Author: Koree Bemiss
-
-Last Modified: Oct 31, 2019.
 
 The game is Copyright © 2019 by Koree Bemiss
 

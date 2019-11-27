@@ -1,15 +1,12 @@
 Directions:
 
-This site is intended to be a keyboard movable game. The user uses the keys of their keyboard to move Pixel Dude 
-up, down, left and right in order to navigate arround the emoji filled text messages. 
-The goal is to score better than the last time you played everytime you play again.
+This site is intended to be a keyboard movable game. The user uses the keys of their keyboard to move Pixel Dude up, down, left and right in order to navigate around the emoji filled text messages. The goal is to score better than the last time you played every-time you play again.
 
 
 Current problems or issues: As of right now, there are no current problems or issues that effect playing the game itself.
 
 
-Plans to resolve issues: As of right now, the only asthetic issue I would like to work furhter on is the squishing of the top emoji message bubbles. 
-I have worked and played with fixing this issue, but it still bothers me that they are squished significantly at times.
+Plans to resolve issues: As of right now, the only aesthetic issue I would like to work further on is the squishing of the top emoji message bubbles. I have worked and played with fixing this issue, but it still bothers me that they are squished significantly at times.
 
 
 Images:
@@ -30,8 +27,6 @@ No plans for future releases. I maybe will add levels in the future.
 Copyright:
 
 Author: Koree Bemiss
-
-Last Modified: Oct 31, 2019.
 
 The game is Copyright © 2019 by Koree Bemiss
 

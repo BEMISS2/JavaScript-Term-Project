@@ -1,0 +1,144 @@
+html{
+  height:100%;
+}
+body{
+  background-image: url(../media/triviaBackground.png);
+  text-align: center;
+  background-size: cover;
+  height:100%;
+}
+.answer-button{
+  float: right;
+  margin-right:200px;
+}
+.graphic{
+  float: left;
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  margin-top:30px;
+  margin-left:-60px;
+  width:250px;
+  height:250px;
+  box-shadow:7px 5px 10px grey;
+}
+footer{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 10px;
+  width: 1200px;
+  padding: 5px;
+  background-color: rgb(35, 32, 32);
+  border-radius: 20px;
+  color: white;
+}
+#collectArea{
+  background-image: url(../media/tv.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  padding: 20px;
+  height: 120%;
+}
+#textArea{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  border-radius:20px;
+  width:90%;
+  opacity: .9;
+  height: 100%;
+}
+#loadArea{
+  margin-top:2px;
+}
+button{
+  display:block;
+  width:40%;
+  height:10%;
+  margin: 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 32px;
+}
+#game-over{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  color: white;
+  border-radius: 20px;
+  padding: 1%;
+  background: linear-gradient(to top, rgb(140, 0, 0), 10%, #d00000);
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+  color:rgb(29, 155, 234);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width:80%;
+  margin-right:-20px;
+  text-align: center;
+  float: right;
+}
+h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color:#d00000;
+  margin-bottom: 50px;
+}
+h6{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+  color:rgb(29, 155, 234);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width:80%;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  line-height: 250%;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 3px;
+  padding-left: 2px;
+  background-image: url(../media/clock.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+#timer{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 2%;
+  color: white;
+  border-radius: 20px;
+  padding: 1%;
+  background: linear-gradient(to top, rgb(140, 0, 0), 10%, #d00000);
+}
+button:hover {
+  border:5px outset #d00000;
+  border-radius: 20px;
+  color: white;
+  background: linear-gradient(to top, rgb(140, 0, 0), 10%, #d00000);
+}
