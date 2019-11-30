@@ -69,7 +69,7 @@ var questions = [{
   correctAnswer: "Backstreet Boys",
   image:"media/iconMusic.png"
 }, {
-  question: "What iconic comic book creator appeared <br> in camios of <i>Marvel</i> Movies?",
+  question: "What iconic comic book creator appeared <br> in cameos of <i>Marvel</i> Movies?",
   answers: ["Frank Miller", "Kevin Smith", "Joss Whedon", "Stan Lee"],
   correctAnswer: "Stan Lee",
   image:"media/iconMovie.png"
